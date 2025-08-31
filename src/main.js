@@ -1,3 +1,3 @@
-function sum(a, b) {
-  return a + b;
-}
+import sum from './helpers/helpers';
+
+console.log(sum(2, 5));
